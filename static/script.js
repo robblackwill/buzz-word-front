@@ -40,7 +40,7 @@ let inRoom = -1
 async function getState() {
 
     
-    state = await submit('GET', `https://buzz-word-back.herokuapp.com`)
+    state = await submit('GET', `https://buzz-word-back.herokuapp.com/api/state`)
 
     if (state){
 
